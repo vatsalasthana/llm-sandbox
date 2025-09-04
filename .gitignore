@@ -13,13 +13,16 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+.env
 .eggs/
 lib/
 lib64/
 parts/
 sdist/
+venv/
 var/
 wheels/
+logs/
 share/python-wheels/
 *.egg-info/
 .installed.cfg

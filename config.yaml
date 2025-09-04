@@ -1,0 +1,24 @@
+system_prompt: "You are a helpful assistant."
+models:
+  - name: "Groq"
+    provider: "groq"
+    id: "openai/gpt-oss-20b"
+  - name: "Ollama Model"
+    provider: "ollama"
+    id: "llama3"
+  - name: "OpenAI"
+    provider: "openai"
+    id: "gpt-4.1-nano"
+  - name: "DeepSeek"
+    provider: "openrouter"
+    id: "deepseek/deepseek-chat-v3-0324"
+  - name: "Qwen"
+    provider: "huggingface"
+    id: "qwen/model-id"
+agents:
+  - name: "Sales Agent"
+    model: "Groq Model"
+    tools: ["calculator", "rag"]
+personas:
+  - name: "Friendly"
+    description: "A friendly and helpful assistant."
